@@ -1,102 +1,105 @@
-
----
-FIRST CHECKOUT THE VIDEO OF HOW OUR CHATBOT EXACTLY WORKS AND THEN FURTHER CHECKOUT THE README FILE FOR BETTER UNDERSTANDING 
-
-
-<video controls src="20241027-0148-23.2433515.mp4" title="Title"></video>
-
-## Drive link to Demonstration of NomosBot
-
-https://drive.google.com/file/d/1tZ-UjY9qsI-w_Xk3Rucz91K6PcJuPNR3/view
 # Nomos - AI Law Chatbot
 
+**Nomos** is an AI-powered legal chatbot designed to assist users with inquiries on Indian law. Trained on a dataset of 45,000 legal queries specific to Indian legal systems, Nomos provides accurate and insightful responses by leveraging advanced AI techniques, including agents, chain-of-thought reasoning, and Retrieval-Augmented Generation (RAG) using the Gemini API.
 
+---
+## 📽 Demonstration
 
-**Nomos** is an AI-powered legal chatbot designed to assist users with inquiries on Indian law. Trained on a dataset of 45,000 legal queries specific to Indian legal systems, Nomos provides accurate and insightful responses by leveraging advanced AI techniques, including agents, chain-of-thought reasoning, and Retrieval-Augmented Generation (RAG), using the Gemini API.
+### Watch How Nomos Works:
 
+<video controls src="20241027-0148-23.2433515.mp4" title="Nomos Demonstration"></video>
 
-## DeployedLink
+🔗 **Drive Link:** [NomosBot Demonstration](https://drive.google.com/file/d/1tZ-UjY9qsI-w_Xk3Rucz91K6PcJuPNR3/view)
 
-https://nomosbot.netlify.app
+🔗 **Deployed Link:** [NomosBot](https://nomosbot.netlify.app)
 
-## Features
+---
+## 🚀 Features
 
-- **Expert Legal Assistance**: Trained specifically on Indian law, covering topics from civil to criminal law.
-- **Agent-Based Reasoning**: Uses multiple agents to deliver a nuanced understanding of legal questions.
-- **Chain-of-Thought Processing**: Breaks down complex queries into manageable steps to enhance answer quality.
-- **Retrieval-Augmented Generation (RAG)**: Improves response accuracy by combining real-time information retrieval with response generation.
-- **Powered by Gemini API**: Integrates Gemini's latest API capabilities for high-performance processing and data handling.
-- **Strictly answers law based Querys**: It answers only law based queries and does not give the output if its not somehitng law related.
-- ![Screenshot 2024-10-27 100126](https://github.com/user-attachments/assets/0dd86bf0-42b3-4e09-9d67-a2ae6ba26987)
+✅ **Expert Legal Assistance**: Provides insights on Indian law, covering civil, criminal, corporate, and property law.
 
-## Frontend
+✅ **Agent-Based Reasoning**: Uses multiple AI agents to enhance legal query understanding.
 
-The frontend of Nomos is built with:
-- **React** for dynamic user interface components.
-- **Tailwind CSS** for fast and responsive UI styling.
+✅ **Chain-of-Thought Processing**: Breaks down complex legal queries into structured steps for accurate responses.
 
-## Future Collaboration
+✅ **Retrieval-Augmented Generation (RAG)**: Enhances response accuracy by combining real-time legal data retrieval with AI-generated answers.
 
-We are preparing to collaborate with government bodies to access more detailed and comprehensive legal datasets. This partnership will allow Nomos to provide even more accurate and precise responses, benefiting both users and the legal system as a whole.
+✅ **Gemini API-Powered**: Utilizes advanced AI models for precise legal assistance.
 
-## Installation
+✅ **Strictly Answers Law-Based Queries**: Ensures responses remain within the legal domain.
 
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-username/Nomos.git
-   cd Nomos
-   ```
+![Nomos Screenshot](https://github.com/user-attachments/assets/0dd86bf0-42b3-4e09-9d67-a2ae6ba26987)
 
-2. **Install Backend Dependencies:**
-   Ensure you have Python 3.8+ installed. Install required packages with:
-   ```bash
-   pip install -r requirements.txt
-   ```
+---
+## 🎨 Frontend Technology Stack
 
-3. **Install Frontend Dependencies:**
-   In the `frontend` directory:
-   ```bash
-   cd frontend
-   npm install
-   ```
+- **React.js**: Dynamic user interface.
+- **Tailwind CSS**: Fast and responsive styling.
 
-4. **Set Up Gemini API Access**:
-   - Get your API key from Gemini.
-   - Set up your environment by creating a `.env` file with:
-     ```
-     GEMINI_API_KEY=your_gemini_api_key
-     ```
+---
+## 🔗 Future Collaboration
 
-## Usage
-   ```
+We aim to collaborate with government bodies to access comprehensive legal datasets. This will further improve Nomos’ accuracy and reliability for users and the legal system.
 
-1. **Run the Frontend**:
-   In the `frontend` directory, start the React app:
-   ```bash
-   npm start
-   ```
+---
+## 🛠 Installation Guide
 
-2. **Interacting with Nomos**:
-   Access the chatbot at `http://localhost:3000` and start interacting with legal queries. For example:
+### 1️⃣ Clone the Repository:
+```bash
+git clone https://github.com/your-username/Nomos.git
+cd Nomos
+```
 
-   ```plaintext
-   User: What are the laws on property inheritance in India?
-   Nomos: Indian inheritance law is governed by a variety of statutes, depending on religion, region, and type of property...
-   ```
+### 2️⃣ Install Backend Dependencies:
+Ensure Python 3.8+ is installed, then run:
+```bash
+pip install -r requirements.txt
+```
 
-## Training
- ![alt text](ONE.JPEG)
- ![alt text](2.JPEG)
- ![alt text](3.JPEG)
-Nomos was trained using:
-- **45,000 Indian law queries** covering areas such as civil, criminal, property, and corporate law.
-- A custom model architecture that improves legal comprehension by utilizing a chain-of-thought approach and RAG for enhancing information retrieval.
+### 3️⃣ Install Frontend Dependencies:
+```bash
+cd frontend
+npm install
+```
 
-For re-training or fine-tuning, check out our `training/README.md` for detailed instructions.
+### 4️⃣ Set Up Gemini API Access:
+- Get your API key from Gemini.
+- Create a `.env` file and add:
+  ```
+  GEMINI_API_KEY=your_gemini_api_key
+  ```
 
-## PPT
+---
+## 💡 Usage
 
-https://docs.google.com/presentation/d/1d-mF3thxNbclZhfZ4unQAMH694v1yD3a/edit?usp=drive_web&ouid=110808746669281974824&rtpof=true
+### 🏁 Start the Frontend:
+```bash
+npm start
+```
+
+### 💬 Interacting with Nomos:
+Open `http://localhost:3000` and start chatting! Example:
+
+**User:** *What are the laws on property inheritance in India?*  
+**Nomos:** *Indian inheritance law is governed by various statutes, depending on religion, region, and type of property...*
+
+---
+## 🧠 AI Training Process
+
+![Training Image](ONE.JPEG)  
+![Training Image](2.JPEG)  
+![Training Image](3.JPEG)  
+
+Nomos was trained on:
+- **45,000+ Indian legal queries** across multiple domains.
+- **Custom AI model architecture** integrating chain-of-thought reasoning and RAG for enhanced legal comprehension.
+
+🔗 **For fine-tuning & re-training, refer to:** `training/README.md`
+
+---
+## 📊 Presentation & Documentation
+
+📑 **Presentation:** [NomosBot Pitch Deck](https://docs.google.com/presentation/d/1d-mF3thxNbclZhfZ4unQAMH694v1yD3a/edit?usp=drive_web&ouid=110808746669281974824&rtpof=true)
 
 
 
